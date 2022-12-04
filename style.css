@@ -1,0 +1,282 @@
+*{
+    margin: 0px;
+}
+
+label{
+    font-size: 18pt;
+}
+
+
+.btn_big{
+    background: teal;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16pt;
+}
+
+.btn{
+    float: right;
+}
+
+.nav{
+    height: 50px;
+    width: 100%;
+    background: #152238;
+    text-decoration: none;
+}
+
+.nav  .navbar{
+    float: right;
+}
+
+.nav .navbar .nav-list{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+
+.nav .navbar .nav-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 20pt;
+}
+
+.main-content{
+    display: flex;
+    margin-top: 20px;
+    height: 80%;
+}
+
+.main-content .left-sidebar{
+    flex: 30;
+    background: #eac9c1;
+    padding: 20px;
+    margin: 0px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+.main-content .left-sidebar .login-form .btn_right{
+    float: right;
+    margin-right: 10px;
+    padding: 20px;
+}
+
+.main-content .middle-bar{
+    flex: 40;
+    background: transparent;
+    padding: 20px;
+    margin: 0px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+.main-content .middle-bar .para{
+    font-size: larger;
+}
+
+.main-content .right-sidebar{
+    flex: 30;
+    background: #eac9c1;
+    padding: 20px;
+    margin: 0px 10px 5px 10px;
+
+    border-radius: 5px;
+}
+
+.main-content .right-sidebar .quick-links .qlinks{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.main-content .right-sidebar .quick-links .qlinks-drop{
+    margin-top: 10px;
+}
+
+.main-content .right-sidebar .quick-links .qlinks-drop .qlinks-list{
+    margin-top: 20px;
+    border-bottom: 2px solid grey;
+    padding-bottom: 10px;
+    transition: .5s;
+}
+
+.main-content .right-sidebar .quick-links .qlinks-drop .qlinks-list:hover{
+    margin-left: 20px;
+    transition: .5s;
+}
+
+.main-content .right-sidebar .quick-links .qlinks-drop .qlinks-list a{
+    text-decoration: none;
+    color: #191919;
+    font-size: 18pt;
+}
+
+.main-content .right-sidebar .quick-links .qlinks-drop .qlinks-list a:hover{
+    color: orangered;
+}
+
+.main-content .right-sidebar .states-data{
+    margin-top: 20px;
+}
+
+.main-content .right-sidebar .states-data .data-heading{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.main-content .right-sidebar .states-data .list-open{
+    margin-top: 20px;
+}
+
+.main-content .right-sidebar .states-data .data-list{
+    margin-top: 20px;
+    border-bottom: 2px solid grey;
+    padding-bottom: 10px;
+    transition: .5s;
+}
+
+.main-content .right-sidebar .states-data .data-list:hover{
+    margin-left: 20px;
+    transition: .5s;
+}
+
+.main-content .right-sidebar .states-data .data-list a{
+    text-decoration: none;
+    color: #191919;
+    font-size: 18pt;
+}
+
+.main-content .right-sidebar .states-data .data-list a:hover{
+    color: orangered;
+}
+
+.footer{
+    background: #152238;
+    padding: 20px;
+    margin-bottom: 0pxs;
+    margin: 10px 10px 0px 10px;
+    color: #F5F5F5;
+}
+
+.footer .footer_content{
+    padding: 20px;
+    margin: 20px 40px 10px 40px;
+    display: flex;
+}
+
+.footer .footer_content .footer_left{
+    flex: 50;
+}
+
+.footer .footer_content .footer_right{
+    flex: 50;
+}
+
+.footer_bottom{
+    color: white;
+    background: black;
+    margin: 0px 10px 0px 10px;
+    height: 60px;
+}
+
+.footer_bottom .footer_bottom_content{
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+/** Login/Sign Up Page **/
+
+
+.form_title{
+    text-align: center;
+}
+
+
+.verification_section{
+    width: 30%;
+    height: inherit;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    background: #f9f9f3;
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+
+
+
+  /****   Today  *****/
+
+
+  .database{
+    background: #eac9c1;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px 60px 20px 60px;
+  }
+
+  .database .post{
+    display: flex;
+    background: white;
+    border-radius: 10px;
+  }
+
+  .database .post .post_image{
+    flex: 30;
+  }
+
+  .database .post .post_content{
+    flex: 70;
+    padding: 40px;
+    border-radius: 5px;
+    font-size: 20pt;
+    margin-left: 10px;
+  }
+
+
+  /** posts **/
+
+  .database .postpage .postpage_image{
+    margin-left: 35%;
+  }
+
+  .database .postpage .postpage_content{
+    background: white;
+    border-radius: 5px;
+    font-size: 20pt;
+    padding: 50px 100px 50px 100px;
+  }
